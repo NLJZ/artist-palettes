@@ -37,12 +37,12 @@ main h1 {
   display: inline-flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .palette h2,
 .palette p {
   flex: 1 100%;
-  padding: 0 0 1rem 1rem;
+  padding: 0 1rem 1rem 1rem;
 }
 .palette li {
   list-style: none;
