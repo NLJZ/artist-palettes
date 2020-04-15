@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: helvetica, arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+a {
+  color: miro(bluelight);
+  padding: 0.3rem;
+}
+
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}

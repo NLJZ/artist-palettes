@@ -1,0 +1,3 @@
+@function miro($color-name) {
+  @return map-get($miro, $color-name);
+}
