@@ -13,6 +13,7 @@
 
   ul {
     z-index: 1000;
+    width: 100%;
   }
 
   li {
@@ -34,9 +35,15 @@
   .color {
     height: 100%;
     width: 100%;
-    min-width: max-content;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+
+    .color-info {
+      width: 33%;
+      display: flex;
+      justify-content: center;
+    }
   }
 }
