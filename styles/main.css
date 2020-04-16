@@ -26,7 +26,7 @@ main {
   align-self: center;
 }
 main h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   padding-left: 1rem;
 }
 
@@ -35,6 +35,7 @@ main h1 {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
+  padding-bottom: 5rem;
 }
 .palette h2,
 .palette p {
@@ -88,6 +89,34 @@ main h1 {
 
 .mirored {
   background-color: #c5201e;
+}
+
+.mirolightyellow {
+  background-color: #ebd9a7;
+}
+
+.matblue {
+  background-color: #356eb0;
+}
+
+.matpink {
+  background-color: #b55186;
+}
+
+.matorange {
+  background-color: #e7974c;
+}
+
+.matdarkorange {
+  background-color: #e5644b;
+}
+
+.matdarkgreen {
+  background-color: #006f56;
+}
+
+.matlightgreen {
+  background-color: #84b05c;
 }
 
 /*# sourceMappingURL=main.css.map */
