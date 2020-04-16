@@ -1,0 +1,11 @@
+@mixin lighter($color) {
+  background-color: lighten($color, 15%);
+  height: 100%;
+  width: 33%;
+}
+
+@mixin darker($color) {
+  background-color: darken($color, 15%);
+  height: 100%;
+  width: 33%;
+}

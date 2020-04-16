@@ -1,27 +1,69 @@
 .mirodarkblue {
   background-color: miro(bluedark);
+  .light {
+    @include lighter(miro(bluedark));
+  }
+  .dark {
+    @include darker(miro(bluedark));
+  }
 }
 
 .miromedblue {
   background-color: miro(bluemed);
+  .light {
+    @include lighter(miro(bluemed));
+  }
+  .dark {
+    @include darker(miro(bluemed));
+  }
 }
 
 .mirolightblue {
   background-color: miro(bluelight);
+  .light {
+    @include lighter(miro(bluelight));
+  }
+  .dark {
+    @include darker(miro(bluelight));
+  }
 }
 
 .miroyellow {
   background-color: miro(yellow);
+  .light {
+    @include lighter(miro(yellow));
+  }
+  .dark {
+    @include darker(miro(yellow));
+  }
 }
 
 .mirodarkyellow {
   background-color: miro(yellowdark);
+  .light {
+    @include lighter(miro(yellowdark));
+  }
+  .dark {
+    @include darker(miro(yellowdark));
+  }
 }
 
 .mirored {
   background-color: miro(red);
+  .light {
+    @include lighter(miro(red));
+  }
+  .dark {
+    @include darker(miro(red));
+  }
 }
 
 .mirolightyellow {
   background-color: miro(yellowlight);
+  .light {
+    @include lighter(miro(yellowlight));
+  }
+  .dark {
+    @include darker(miro(yellowlight));
+  }
 }

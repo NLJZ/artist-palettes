@@ -11,6 +11,10 @@
     padding: 0 1rem 1rem 1rem;
   }
 
+  ul {
+    z-index: 1000;
+  }
+
   li {
     list-style: none;
     margin: 1rem 0;
@@ -24,6 +28,7 @@
   .color-holder {
     display: grid;
     grid-template-columns: auto auto;
+    grid-gap: 0.5rem;
     width: 100%;
   }
 
@@ -31,10 +36,8 @@
     height: 100%;
     width: 100%;
     min-width: max-content;
-    padding-bottom: 1rem;
-    padding: 1rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
 }

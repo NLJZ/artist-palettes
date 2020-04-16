@@ -1,23 +1,59 @@
 .matblue {
   background-color: matisse(matblue);
+  .light {
+    @include lighter(matisse(matblue));
+  }
+  .dark {
+    @include darker(matisse(matblue));
+  }
 }
 
 .matpink {
   background-color: matisse(matpink);
+  .light {
+    @include lighter(matisse(matpink));
+  }
+  .dark {
+    @include darker(matisse(matpink));
+  }
 }
 
 .matorange {
   background-color: matisse(matorange);
+  .light {
+    @include lighter(matisse(matorange));
+  }
+  .dark {
+    @include darker(matisse(matorange));
+  }
 }
 
 .matdarkorange {
   background-color: matisse(matdarkorange);
+  .light {
+    @include lighter(matisse(matdarkorange));
+  }
+  .dark {
+    @include darker(matisse(matdarkorange));
+  }
 }
 
 .matdarkgreen {
   background-color: matisse(matdarkgreen);
+  .light {
+    @include lighter(matisse(matdarkgreen));
+  }
+  .dark {
+    @include darker(matisse(matdarkgreen));
+  }
 }
 
 .matlightgreen {
   background-color: matisse(matlightgreen);
+  .light {
+    @include lighter(matisse(matlightgreen));
+  }
+  .dark {
+    @include darker(matisse(matlightgreen));
+  }
 }
