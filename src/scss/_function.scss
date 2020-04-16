@@ -9,3 +9,7 @@
 @function richter($color-name) {
   @return map-get($richter, $color-name);
 }
+
+@function getcolor($map-name, $color-name) {
+  @return map-get($map-name, $color-name);
+}

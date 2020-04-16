@@ -11,11 +11,6 @@
     padding: 0 1rem 1rem 1rem;
   }
 
-  ul {
-    z-index: 1000;
-    width: 95%;
-  }
-
   li {
     list-style: none;
     margin: 1rem 0;
@@ -23,7 +18,6 @@
     padding: 0.5rem;
     opacity: 0.7;
     border: 1px solid #222;
-    max-width: 10rem;
   }
 
   .color-holder {
@@ -37,8 +31,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    position: relative;
+    justify-content: center;
 
     .color-info {
       width: 33.33%;

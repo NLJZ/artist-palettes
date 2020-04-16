@@ -1,5 +1,5 @@
 .mirodarkblue {
-  background-color: miro(bluedark);
+  background-color: getcolor($miro, bluedark);
   .light {
     @include lighter(miro(bluedark));
   }
