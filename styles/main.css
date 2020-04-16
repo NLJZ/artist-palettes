@@ -44,7 +44,7 @@ main h1 {
 }
 .palette ul {
   z-index: 1000;
-  width: 100%;
+  width: 95%;
 }
 .palette li {
   list-style: none;
@@ -65,11 +65,11 @@ main h1 {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   position: relative;
 }
 .palette .color .color-info {
-  width: 33%;
+  width: 33.33%;
   display: flex;
   justify-content: center;
 }
@@ -80,12 +80,12 @@ main h1 {
 .mirodarkblue .light {
   background-color: #007cd8;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 .mirodarkblue .dark {
   background-color: #00243f;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 
 .miromedblue {
@@ -94,12 +94,12 @@ main h1 {
 .miromedblue .light {
   background-color: #01a3f3;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 .miromedblue .dark {
   background-color: #013d5b;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 
 .mirolightblue {
@@ -108,12 +108,12 @@ main h1 {
 .mirolightblue .light {
   background-color: #7ebfd6;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 .mirolightblue .dark {
   background-color: #2d758d;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 
 .miroyellow {
@@ -122,12 +122,12 @@ main h1 {
 .miroyellow .light {
   background-color: #efe5c3;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 .miroyellow .dark {
   background-color: #cfaf4b;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 
 .mirodarkyellow {
@@ -136,12 +136,12 @@ main h1 {
 .mirodarkyellow .light {
   background-color: #ffe28f;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 .mirodarkyellow .dark {
   background-color: #f5b600;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 
 .mirored {
@@ -150,12 +150,12 @@ main h1 {
 .mirored .light {
   background-color: #e44e4c;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 .mirored .dark {
   background-color: #831514;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 
 .mirolightyellow {
@@ -164,12 +164,12 @@ main h1 {
 .mirolightyellow .light {
   background-color: #f9f4e5;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 .mirolightyellow .dark {
   background-color: #ddbe69;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 
 .matblue {
@@ -178,12 +178,12 @@ main h1 {
 .matblue .light {
   background-color: #6295d0;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 .matblue .dark {
   background-color: #234975;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 
 .matpink {
@@ -192,12 +192,12 @@ main h1 {
 .matpink .light {
   background-color: #cc87ab;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 .matpink .dark {
   background-color: #82375f;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 
 .matorange {
@@ -206,12 +206,12 @@ main h1 {
 .matorange .light {
   background-color: #f0be8f;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 .matorange .dark {
   background-color: #cb701b;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 
 .matdarkorange {
@@ -220,12 +220,12 @@ main h1 {
 .matdarkorange .light {
   background-color: #ef9e8e;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 .matdarkorange .dark {
   background-color: #c7381d;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 
 .matdarkgreen {
@@ -234,12 +234,12 @@ main h1 {
 .matdarkgreen .light {
   background-color: #00bc91;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 .matdarkgreen .dark {
   background-color: #00231b;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 
 .matlightgreen {
@@ -248,12 +248,12 @@ main h1 {
 .matlightgreen .light {
   background-color: #abc990;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 .matlightgreen .dark {
   background-color: #5e813f;
   height: 100%;
-  width: 33%;
+  width: 33.33%;
 }
 
 .richblue {
