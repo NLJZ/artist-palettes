@@ -44,6 +44,7 @@ main h1 {
 }
 .palette ul {
   z-index: 1000;
+  width: 100%;
 }
 .palette li {
   list-style: none;
@@ -62,10 +63,15 @@ main h1 {
 .palette .color {
   height: 100%;
   width: 100%;
-  min-width: max-content;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+}
+.palette .color .color-info {
+  width: 33%;
+  display: flex;
+  justify-content: center;
 }
 
 .mirodarkblue {
