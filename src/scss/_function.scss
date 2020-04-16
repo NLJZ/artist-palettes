@@ -1,3 +1,7 @@
 @function miro($color-name) {
   @return map-get($miro, $color-name);
 }
+
+@function matisse($color-name) {
+  @return map-get($matisse, $color-name);
+}
