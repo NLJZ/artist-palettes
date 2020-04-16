@@ -42,6 +42,9 @@ main h1 {
   flex: 1 100%;
   padding: 0 1rem 1rem 1rem;
 }
+.palette ul {
+  z-index: 1000;
+}
 .palette li {
   list-style: none;
   margin: 1rem 0;
@@ -54,69 +57,198 @@ main h1 {
 .palette .color-holder {
   display: grid;
   grid-template-columns: auto auto;
+  grid-gap: 0.5rem;
   width: 100%;
 }
 .palette .color {
   height: 100%;
   width: 100%;
   min-width: max-content;
-  padding-bottom: 1rem;
-  padding: 1rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .mirodarkblue {
   background-color: #00508b;
 }
+.mirodarkblue .light {
+  background-color: #007cd8;
+  height: 100%;
+  width: 33%;
+}
+.mirodarkblue .dark {
+  background-color: #00243f;
+  height: 100%;
+  width: 33%;
+}
 
 .miromedblue {
   background-color: #0170a7;
+}
+.miromedblue .light {
+  background-color: #01a3f3;
+  height: 100%;
+  width: 33%;
+}
+.miromedblue .dark {
+  background-color: #013d5b;
+  height: 100%;
+  width: 33%;
 }
 
 .mirolightblue {
   background-color: #44a3c3;
 }
+.mirolightblue .light {
+  background-color: #7ebfd6;
+  height: 100%;
+  width: 33%;
+}
+.mirolightblue .dark {
+  background-color: #2d758d;
+  height: 100%;
+  width: 33%;
+}
 
 .miroyellow {
   background-color: #dfca87;
+}
+.miroyellow .light {
+  background-color: #efe5c3;
+  height: 100%;
+  width: 33%;
+}
+.miroyellow .dark {
+  background-color: #cfaf4b;
+  height: 100%;
+  width: 33%;
 }
 
 .mirodarkyellow {
   background-color: #ffcf42;
 }
+.mirodarkyellow .light {
+  background-color: #ffe28f;
+  height: 100%;
+  width: 33%;
+}
+.mirodarkyellow .dark {
+  background-color: #f5b600;
+  height: 100%;
+  width: 33%;
+}
 
 .mirored {
   background-color: #c5201e;
+}
+.mirored .light {
+  background-color: #e44e4c;
+  height: 100%;
+  width: 33%;
+}
+.mirored .dark {
+  background-color: #831514;
+  height: 100%;
+  width: 33%;
 }
 
 .mirolightyellow {
   background-color: #ebd9a7;
 }
+.mirolightyellow .light {
+  background-color: #f9f4e5;
+  height: 100%;
+  width: 33%;
+}
+.mirolightyellow .dark {
+  background-color: #ddbe69;
+  height: 100%;
+  width: 33%;
+}
 
 .matblue {
   background-color: #356eb0;
+}
+.matblue .light {
+  background-color: #6295d0;
+  height: 100%;
+  width: 33%;
+}
+.matblue .dark {
+  background-color: #234975;
+  height: 100%;
+  width: 33%;
 }
 
 .matpink {
   background-color: #b55186;
 }
+.matpink .light {
+  background-color: #cc87ab;
+  height: 100%;
+  width: 33%;
+}
+.matpink .dark {
+  background-color: #82375f;
+  height: 100%;
+  width: 33%;
+}
 
 .matorange {
   background-color: #e7974c;
+}
+.matorange .light {
+  background-color: #f0be8f;
+  height: 100%;
+  width: 33%;
+}
+.matorange .dark {
+  background-color: #cb701b;
+  height: 100%;
+  width: 33%;
 }
 
 .matdarkorange {
   background-color: #e5644b;
 }
+.matdarkorange .light {
+  background-color: #ef9e8e;
+  height: 100%;
+  width: 33%;
+}
+.matdarkorange .dark {
+  background-color: #c7381d;
+  height: 100%;
+  width: 33%;
+}
 
 .matdarkgreen {
   background-color: #006f56;
 }
+.matdarkgreen .light {
+  background-color: #00bc91;
+  height: 100%;
+  width: 33%;
+}
+.matdarkgreen .dark {
+  background-color: #00231b;
+  height: 100%;
+  width: 33%;
+}
 
 .matlightgreen {
   background-color: #84b05c;
+}
+.matlightgreen .light {
+  background-color: #abc990;
+  height: 100%;
+  width: 33%;
+}
+.matlightgreen .dark {
+  background-color: #5e813f;
+  height: 100%;
+  width: 33%;
 }
 
 .richblue {
