@@ -5,3 +5,7 @@
 @function matisse($color-name) {
   @return map-get($matisse, $color-name);
 }
+
+@function richter($color-name) {
+  @return map-get($richter, $color-name);
+}
