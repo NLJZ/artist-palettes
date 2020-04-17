@@ -18,14 +18,19 @@ a {
 
 main {
   width: 100%;
-  max-width: 1000px;
+  max-width: 500px;
   margin: 1rem auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-self: center;
   h1 {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     padding-left: 1rem;
+    text-decoration: underline;
+  }
+  h4 {
+    padding-left: 1rem;
+    margin-bottom: 3rem;
   }
 }
