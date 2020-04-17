@@ -18,7 +18,7 @@ a {
 
 main {
   width: 100%;
-  max-width: 1000px;
+  max-width: 500px;
   margin: 1rem auto;
   display: flex;
   flex-direction: column;
@@ -26,14 +26,19 @@ main {
   align-self: center;
 }
 main h1 {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   padding-left: 1rem;
+  text-decoration: underline;
+}
+main h4 {
+  padding-left: 1rem;
+  margin-bottom: 3rem;
 }
 
 .palette {
   height: 100%;
   width: 100%;
-  max-width: 1000px;
+  max-width: 500px;
   margin: 0 auto;
   padding-bottom: 5rem;
 }
@@ -42,20 +47,30 @@ main h1 {
   flex: 1 100%;
   padding: 0 1rem 1rem 1rem;
 }
+.palette .light {
+  color: #d6cabe;
+}
 .palette ul {
   width: 100%;
-  max-width: 192px;
 }
 .palette li {
   list-style: none;
   margin: 1rem 0;
-  background-color: #fff;
   padding: 0.5rem;
 }
 .palette .color-holder {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   width: 100%;
+  max-width: 500px;
+}
+@media only screen and (min-width: 500px) {
+  .palette .color-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    max-width: 500px;
+  }
 }
 .palette .color {
   height: 100%;
@@ -68,6 +83,10 @@ main h1 {
   width: 33.33%;
   display: flex;
   justify-content: center;
+}
+.palette .color::before {
+  content: "";
+  padding-bottom: 100%;
 }
 
 .mirodarkblue {
