@@ -12,8 +12,33 @@ body {
   height: 100vh;
 }
 
+nav {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 500px;
+  align-items: center;
+  border: #333 solid 1px;
+}
+
 a {
   color: miro(bluelight);
+}
+
+.container {
+  margin-top: 8rem;
+}
+
+#menu {
+  h1 {
+    padding-right: 1rem;
+    font-weight: normal;
+  }
 }
 
 main {
@@ -25,13 +50,15 @@ main {
   justify-content: space-between;
   align-self: center;
   h1 {
-    margin-bottom: 1rem;
     padding-left: 1rem;
-    text-decoration: underline;
+    font-family: "Bebas Neue", cursive;
+    padding-bottom: 0.3rem;
   }
   h4 {
+    border-top: #333 solid 1px;
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0.5rem;
   }
 }
